@@ -15,9 +15,20 @@ body {
 
 }
 
+.small-logo {
+    content: url(https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg);
+    display: inline-block;
+    height: 24px;
+    width: 74px;
+}
+
 .navbar-item {
-    margin: 0 0 0 30px;
+    margin: 0 0 0 10px;
     text-align: center;
+}
+
+li .white-space-nav {
+    width: 1050px;
 }
 
 .navbar-item a {
@@ -311,6 +322,11 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+    li .white-space {
+        display: none;
+        visibility: hidden;
+    }
+
     .rounded {
         display: flex;
         z-index: 3;
@@ -320,15 +336,17 @@ body {
         border-radius: 24px;
         margin: 0 auto;
         padding: 5px 8px 4px 14px;
-        width: 300px;
+        width: 100px;
         font-size: 16px;
     }
 
     .instructions {
+        display: none;
         visibility: hidden;
     }
 
     .instructions-title {
+        display: none;
         visibility: hidden;
     }
 }
