@@ -1,3 +1,10 @@
+/* Header - 
+   Navbar */
+header li,
+a[role="button"] {
+    font-size: 14px;
+}
+
 /* Main search bar */
 .rounded-bar {
     display: flex;
@@ -47,4 +54,13 @@
 .btn-search:focus {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     outline: 1px solid #dfe1e5;
+}
+
+/* Footer */
+footer {
+    font-size: 14px;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
