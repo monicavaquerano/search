@@ -5,6 +5,17 @@ a[role="button"] {
     font-size: 14px;
 }
 
+/* Image area */
+.txt {
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: relative;
+    left: -62px;
+    bottom: -39px;
+    white-space: nowrap;
+}
+
+
 /* Main search bar */
 .rounded-bar {
     display: flex;
