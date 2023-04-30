@@ -15,6 +15,16 @@ a[role="button"] {
     white-space: nowrap;
 }
 
+/* Advanced Label */
+.advance-label {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.line {
+    border-bottom: 1px solid #ebebeb;
+}
 
 /* Main search bar */
 .rounded-bar {
