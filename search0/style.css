@@ -15,12 +15,54 @@ a[role="button"] {
     white-space: nowrap;
 }
 
-/* Advanced Label */
-.advance-label {
+/* Advanced Labels */
+.advance-title {
     color: #d93025;
     font-size: 20px;
     margin: 25px 35px;
 }
+
+.form-title {
+    float: left;
+    min-width: 167px;
+    width: 16%;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    vertical-align: middle;
+}
+
+.instruction-title {
+    /* float: left;
+    width: 100%; */
+    font-size: 13px;
+    font-weight: 700;
+    color: #777;
+    padding-left: -5px;
+    /*vertical-align: middle;
+    min-width: 160px;
+    margin: 0 0 8px 1%; */
+}
+
+.instructions {
+    /* float: left;
+    width: 100%;
+    min-width: 160px;
+    margin: 0 0 8px 1%; */
+    color: #555;
+    font-size: 11px;
+    /* padding-left: 5px;
+    vertical-align: middle;
+    position: relative; */
+}
+
+.instructions-span {
+    color: #666;
+    font-family: monospace;
+    font-size: 11px;
+    white-space: pre;
+}
+
 
 .line {
     border-bottom: 1px solid #ebebeb;
